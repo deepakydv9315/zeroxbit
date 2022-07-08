@@ -14,8 +14,6 @@
     --fade-blue: #47B5FF;
     --bg: #DFF6FF;
     --light: #fff;
-
-
 }
 
 .contain {
@@ -35,16 +33,18 @@
     align-items: center;
     flex-direction: column;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: var(--bg);
     width: 100%;
     height: 100vh;
 }
 
-.btn{
+.btn {
     padding: 11px 20px;
     text-decoration: none;
     background-color: var(--dark-blue);
@@ -56,7 +56,7 @@ body {
     font-weight: 500;
 }
 
-.b-btn:hover{
+.b-btn:hover {
     border: 1px solid var(--dark-blue);
     background-color: transparent;
     color: var(--dark-blue);
@@ -90,24 +90,8 @@ nav {
     font-weight: 500;
 }
 
-/* .nav-link a::after{
-    content: " ";
-    position: absolute;
-    display: none;
-    top: 50%;
-    left: -15px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--dark);
-    transform: translate(0%, -50%);
-}
 
-a:hover a   :after{
-    display: block;
-} */
-
-.nav-link a:hover{
+.nav-link a:hover {
     color: var(--dark-blue);
 }
 
@@ -115,26 +99,27 @@ a:hover a   :after{
     MAIN SECTION 
 <<<<<<<<<<<<<<<<<<<< */
 
-.main{
-    /* border: 1px solid black; */
+.main {
     height: 90vh;
     justify-content: space-between;
 }
-.main-txt p{
+
+.main-txt p {
     font-size: 28px;
 }
-.main-txt h1{
+
+.main-txt h1 {
     font-size: 75px;
 }
 
-.main-img img{
+.main-img img {
     width: 700px;
 }
 
 /* >>>>>>>>>>>>>>>>>>
     FLOAT BTN 
 <<<<<<<<<<<<<<<<<<<< */
-.float-btn{
+.float-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -149,31 +134,35 @@ a:hover a   :after{
     transition: all 0.1s linear;
 }
 
-.float-btn:hover{
-    font-size:30px;
+.float-btn:hover {
+    font-size: 30px;
 }
 
 /* >>>>>>>>>>>>>>>>>>
     SERVICE SECTION 
 <<<<<<<<<<<<<<<<<<<< */
-.sec{
-   padding-top: 70px; 
-   padding-bottom: 70px;
+.sec {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-#service{
+
+#service {
     width: 100%;
 }
-.sec-head{
+
+.sec-head {
     font-size: 50px;
     margin-bottom: 60px;
     color: var(--dark);
 }
-.card-wrapper{
+
+.card-wrapper {
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.ser-card{
+
+.ser-card {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -181,47 +170,49 @@ a:hover a   :after{
     gap: 10px 0px;
     width: 400px;
     height: 240px;
-    padding:15px 20px ;
+    padding: 15px 20px;
     background-color: var(--light);
     transition: all 0.1s linear;
     color: var(--light);
     border-radius: 5px;
     cursor: pointer;
 }
-.ser-card:hover{
+
+.ser-card:hover {
     box-shadow: 0px 0px 10px 2px rgba(21, 21, 21, 0.222);
     transform: translateY(-1px);
 }
 
-.ser-card:nth-child(1){
+.ser-card:nth-child(1) {
     background-color: #43AA8B;
 }
 
-.ser-card:nth-child(2){
+.ser-card:nth-child(2) {
     background-color: #0075DD;
 }
 
-.ser-card:nth-child(3){
+.ser-card:nth-child(3) {
     background-color: #F8961E;
 }
 
 
-.ser-head{
+.ser-head {
     font-size: 37px;
     letter-spacing: 1px;
 }
-.ser-para{
+
+.ser-para {
     color: #ebebeb;
     font-size: 20px;
 }
 
 
-.why-card{
+.why-card {
     cursor: pointer;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     gap: 10px 0px;
     background: var(--light);
     padding: 20px;
@@ -229,42 +220,49 @@ a:hover a   :after{
     border-radius: 5px;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.11);
 }
-.why-card img{
+
+.why-card img {
     width: 60px;
 }
 
-.why-card h2{
+.why-card h2 {
     color: var(--dark);
     font-size: 18px;
     margin-top: 5px;
 }
 
 
-.action-btn-sec{
+.action-btn-sec {
     background-color: var(--light);
     position: relative;
     justify-content: space-between;
 }
-.action-text-wrapper{
+
+.action-text-wrapper {
     width: 650px;
 }
-.action-btn-sec h1{
+
+.action-btn-sec h1 {
     font-size: 40px;
 }
-.design-cl{
+
+.design-cl {
     color: #43AA8B;
 }
-.develop-cl{
+
+.develop-cl {
     color: #0075DD;
 }
-.host-cl{
-    color:#F8961E;
+
+.host-cl {
+    color: #F8961E;
 }
+
 /* .action-btn-sec .ac-img{
     width: 200px;
 } */
 
-.ac-img img{
+.ac-img img {
     width: 600px;
 }
 
@@ -286,61 +284,67 @@ a:hover a   :after{
 
 /* footer section  */
 
-footer{
+footer {
     background-color: var(--dark);
 }
 
-.footer-wrapper{
+.footer-wrapper {
     justify-content: space-between;
     align-items: flex-start;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 0, 0.263);
 }
 
-.ft-info h1{
-    color:#fff;
+.ft-info h1 {
+    color: #fff;
     font-size: 38px;
 }
-.ft-info p{
+
+.ft-info p {
     color: #fff;
     margin-bottom: 35px;
 }
-.ft-sc-wrapper{
+
+.ft-sc-wrapper {
     align-items: flex-start !important;
     gap: 10px 0px;
 }
-.ft-sc-wrapper i{
+
+.ft-sc-wrapper i {
     font-size: 19px;
     color: var(--bg);
     margin-right: 10px;
 }
 
-.ft-sc-wrapper a{
+.ft-sc-wrapper a {
     color: var(--bg);
     text-decoration: none;
     font-size: 14px;
 }
-.ft-link{
+
+.ft-link {
     align-items: flex-start;
     gap: 10px 0px;
 }
-.ft-link h3{
+
+.ft-link h3 {
     color: var(--bg);
 }
 
-.ft-link a{
+.ft-link a {
     color: var(--bg);
     text-decoration: none;
 }
 
-.dev-info{
+.dev-info {
     text-align: center;
     color: var(--bg);
     padding-top: 15px;
 }
-.dev-info a{
+
+.dev-info a {
     color: var(--bg);
     text-decoration: none;
     font-weight: 500;
-   
+
 }
