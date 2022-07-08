@@ -35,11 +35,32 @@
     align-items: center;
     flex-direction: column;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--bg);
     width: 100%;
     height: 100vh;
+}
+
+.btn{
+    padding: 11px 20px;
+    text-decoration: none;
+    background-color: var(--dark-blue);
+    color: var(--light);
+    font-size: 19px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.2s linear;
+    font-weight: 500;
+}
+
+.b-btn:hover{
+    border: 1px solid var(--dark-blue);
+    background-color: transparent;
+    color: var(--dark-blue);
+
 }
 
 
@@ -90,6 +111,10 @@ a:hover a   :after{
     color: var(--dark-blue);
 }
 
+/* >>>>>>>>>>>>>>>>>>
+    MAIN SECTION 
+<<<<<<<<<<<<<<<<<<<< */
+
 .main{
     /* border: 1px solid black; */
     height: 90vh;
@@ -106,18 +131,41 @@ a:hover a   :after{
     width: 700px;
 }
 
+/* >>>>>>>>>>>>>>>>>>
+    FLOAT BTN 
+<<<<<<<<<<<<<<<<<<<< */
+.float-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4BCA5A;
+    color: #FAFAFA;
+    font-size: 35px;
+    z-index: 9;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
 
-/* services  */
+.float-btn:hover{
+    font-size:30px;
+}
+
+/* >>>>>>>>>>>>>>>>>>
+    SERVICE SECTION 
+<<<<<<<<<<<<<<<<<<<< */
 .sec{
-   padding-top: 50px; 
-   padding-bottom: 50px;
+   padding-top: 70px; 
+   padding-bottom: 70px;
 }
 #service{
     width: 100%;
 }
 .sec-head{
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color: var(--dark);
 }
 .card-wrapper{
@@ -132,7 +180,7 @@ a:hover a   :after{
     flex-direction: column;
     gap: 10px 0px;
     width: 400px;
-    height: 220px;
+    height: 240px;
     padding:15px 20px ;
     background-color: var(--light);
     transition: all 0.1s linear;
@@ -156,12 +204,7 @@ a:hover a   :after{
 .ser-card:nth-child(3){
     background-color: #F8961E;
 }
-.btn{
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: var(--dark-blue);
-    color: var(--light);
-}
+
 
 .ser-head{
     font-size: 37px;
@@ -173,6 +216,57 @@ a:hover a   :after{
 }
 
 
+.why-card{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    gap: 10px 0px;
+    background: var(--light);
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.11);
+}
+.why-card img{
+    width: 60px;
+}
+
+.why-card h2{
+    color: var(--dark);
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.action-btn-sec{
+    background-color: var(--light);
+    position: relative;
+    justify-content: space-between;
+}
+.action-text-wrapper{
+    width: 650px;
+}
+.action-btn-sec h1{
+    font-size: 40px;
+}
+.design-cl{
+    color: #43AA8B;
+}
+.develop-cl{
+    color: #0075DD;
+}
+.host-cl{
+    color:#F8961E;
+}
+/* .action-btn-sec .ac-img{
+    width: 200px;
+} */
+
+.ac-img img{
+    width: 600px;
+}
 
 
 
