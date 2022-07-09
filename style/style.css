@@ -213,7 +213,7 @@ nav {
 }
 
 
-.why-card {
+.why-card{
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -223,6 +223,7 @@ nav {
     background: var(--light);
     padding: 20px;
     width: 200px;
+    height: 150px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.11);
 }
@@ -264,18 +265,54 @@ nav {
     color: #F8961E;
 }
 
-/* .action-btn-sec .ac-img{
-    width: 200px;
-} */
 
 .ac-img img {
     width: 600px;
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    founder page SECTION 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.founder-sec .card-wrapper{
+    justify-content: center;
+    gap: 0px 100px;
+}
+.profile-card{
+    border: 1px solid black;
+    gap: 0px 30px;
+}
 
-/* >>>>>>>>>>>>>>>>>>
+.profile-card img{
+    width: 200px;
+}
+
+.pc-text{
+    align-items: flex-start;
+}
+.profile-card h2{
+    font-size: 30px;
+}
+
+.s-icons{
+    margin-top: 10px;
+    font-size: 27px;
+    gap: 0px 15px;
+}
+.s-icons i{
+    color: var(--dark);
+    transition: all 0.2s linear;
+}
+.s-icons i:hover{
+    color: var(--dark-blue);
+    transform: translateY(1px);
+
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     contact page SECTION 
-<<<<<<<<<<<<<<<<<<<< */
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 
 .contact-form-wrapper {
