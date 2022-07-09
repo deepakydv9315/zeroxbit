@@ -54,6 +54,8 @@ body {
     border: 1px solid transparent;
     transition: all 0.2s linear;
     font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 8px 20px -3px rgba(0, 0, 0, 0.178);
 }
 
 .b-btn:hover {
@@ -61,6 +63,9 @@ body {
     background-color: transparent;
     color: var(--dark-blue);
 
+}
+a{
+    text-decoration: none;
 }
 
 
@@ -75,6 +80,7 @@ nav {
     font-size: 28px;
     font-weight: 500;
     color: var(--dark);
+    text-decoration: none;
 }
 
 .nav-link {
@@ -266,6 +272,65 @@ nav {
     width: 600px;
 }
 
+
+/* >>>>>>>>>>>>>>>>>>
+    contact page SECTION 
+<<<<<<<<<<<<<<<<<<<< */
+
+
+.contact-form-wrapper {
+    height: 87vh;
+    background: linear-gradient(180deg, #dff6ffcd, #dff6ffd4), url(../media/contact-page.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+.contact-form-wrapper form {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 500px;
+    min-width: 490px;
+    padding: 30px;
+    border: 2px solid #f2f0ff;
+}
+
+.contact-form-wrapper form .db-head {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: #F7F6FF;
+    height: 45px;
+}
+
+.input-box input,
+.input-box textarea {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.textarea-box {
+    height: 100px;
+    align-items: flex-start;
+}
+
+.contact-form-wrapper form .b-btn {
+    margin-top: 15px;
+    box-shadow: 0px 8px 20px -3px rgba(0, 0, 0, 0.178);
+}
 
 
 
