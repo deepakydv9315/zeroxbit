@@ -64,7 +64,8 @@ body {
     color: var(--dark-blue);
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -108,6 +109,7 @@ nav {
 .main {
     height: 90vh;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .main-txt p {
@@ -121,6 +123,42 @@ nav {
 .main-img img {
     width: 700px;
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    informational SECTION 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.action-btn-sec {
+    background-color: var(--light);
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.action-text-wrapper {
+    width: 650px;
+}
+
+.action-btn-sec h1 {
+    font-size: 40px;
+}
+
+.design-cl {
+    color: #43AA8B;
+}
+
+.develop-cl {
+    color: #0075DD;
+}
+
+.host-cl {
+    color: #F8961E;
+}
+
+
+.ac-img img {
+    width: 600px;
+}
+
 
 /* >>>>>>>>>>>>>>>>>>
     FLOAT BTN 
@@ -164,8 +202,9 @@ nav {
 
 .card-wrapper {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 80px 70px;
 }
 
 .ser-card {
@@ -213,7 +252,7 @@ nav {
 }
 
 
-.why-card{
+.why-card {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -239,45 +278,17 @@ nav {
 }
 
 
-.action-btn-sec {
-    background-color: var(--light);
-    position: relative;
-    justify-content: space-between;
-}
 
-.action-text-wrapper {
-    width: 650px;
-}
-
-.action-btn-sec h1 {
-    font-size: 40px;
-}
-
-.design-cl {
-    color: #43AA8B;
-}
-
-.develop-cl {
-    color: #0075DD;
-}
-
-.host-cl {
-    color: #F8961E;
-}
-
-
-.ac-img img {
-    width: 600px;
-}
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     founder page SECTION 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-.founder-sec .card-wrapper{
+.founder-sec .card-wrapper {
     justify-content: center;
-    gap: 0px 100px;
+    gap: 80px 100px;
 }
-.profile-card{
+
+.profile-card {
     border-radius: 5px;
     gap: 0px 30px;
     padding: 20px;
@@ -285,32 +296,36 @@ nav {
     background-color: var(--light);
 }
 
-.profile-card img{
+.profile-card img {
     width: 140px;
 }
 
-.pc-text{
+.pc-text {
     align-items: flex-start;
 }
-.profile-card h2{
+
+.profile-card h2 {
     font-size: 30px;
 }
-.profile-card p{
+
+.profile-card p {
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 
-.s-icons{
+.s-icons {
     margin-top: 10px;
     font-size: 23px;
     gap: 0px 13px;
 }
-.s-icons i{
+
+.s-icons i {
     color: var(--dark);
     transition: all 0.2s linear;
 }
-.s-icons i:hover{
+
+.s-icons i:hover {
     color: var(--dark-blue);
     transform: translateY(1px);
 
@@ -381,17 +396,6 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer section  */
 
 footer {
@@ -457,4 +461,115 @@ footer {
     text-decoration: none;
     font-weight: 500;
 
+}
+
+
+@media (max-width:1264px) {
+    .ac-img img {
+        width: 500px;
+    }
+
+    .contain {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width:1155px) {
+    .ac-img img {
+        width: 450px;
+    }
+
+    .contain {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width:1021px) {
+    .ac-img img {
+        display: none;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .contain {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:706px) {
+    .nav-link {
+        display: none;
+    }
+
+    .nav-ham {
+        display: block;
+    }
+
+    .contain {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:611px) {
+    .main-txt p {
+        font-size: 22px;
+    }
+
+    .main-txt h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:535px) {
+    .contain {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-txt h1 {
+        font-size: 50px;
+    }
+    .profile-card img {
+        width: 100px;
+    }
+    .profile-card h2 {
+        font-size: 21px;
+    }
+    .profile-card p{
+        font-size: 13px;
+    }
+
+    .action-text-wrapper h1{
+        font-size: 32px;
+    }
+    .sec-head{
+        font-size: 42px;
+    }
+}
+
+@media (max-width:400px) {
+    .main-txt h1 {
+        font-size: 33px;
+    }
+    .ser-head{
+        font-size:28px;
+    }
+    .ser-para{
+        font-size: 17px;
+    }
+
+    .profile-card{
+        padding: 10px;
+    }
+    .ft-link{
+        display: none;
+    }
+    .sec-head{
+        font-size: 30px;
+    }
 }
